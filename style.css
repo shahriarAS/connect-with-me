@@ -1,29 +1,18 @@
 body .main-section {
   width: 100%;
   height: 100vh;
-  background: radial-gradient(
-      ellipse farthest-side at 76% 77%,
-      rgba(245, 228, 212, 0.25) 4%,
-      rgba(255, 255, 255, 0) calc(4% + 1px)
-    ),
-    radial-gradient(circle at 76% 40%, #fef6ec 4%, rgba(255, 255, 255, 0) 4.18%),
-    linear-gradient(135deg, #ff0000 0%, #000036 100%),
-    radial-gradient(ellipse at 28% 0%, #ffcfac 0%, rgba(98, 149, 144, 0.5) 100%),
-    linear-gradient(180deg, #cd6e8a 0%, #f5eab0 69%, #d6c8a2 70%, #a2758d 100%);
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  #18181B 0%, rgba(32,45,58,1) 81.3% );
   background-blend-mode: normal, normal, screen, overlay, normal;
 }
 
 .btn-grad {
-  background-image: linear-gradient(
-    to right,
-    #4b6cb7 0%,
-    #182848 51%,
-    #4b6cb7 100%
-  );
+  background-image: linear-gradient(to right, #485563 0%, #29323c  51%, #485563  100%);
+  
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
   box-shadow: 0 0 20px #eee;
+  
 }
 
 .btn-grad:hover {
