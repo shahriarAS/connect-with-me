@@ -1,0 +1,10 @@
+{
+  "name": "connect-with-me",
+  "packageManager": "yarn@3.4.1",
+  "scripts": {
+    "tailwind-build": "npx tailwindcss -i ./tailwindSRC.css -o ./tailwind.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}
