@@ -2,6 +2,7 @@
   "name": "connect-with-me",
   "packageManager": "yarn@3.4.1",
   "scripts": {
+    "tailwind-watch": "npx tailwindcss -i ./tailwindSRC.css -o ./tailwind.css --watch",
     "tailwind-build": "npx tailwindcss -i ./tailwindSRC.css -o ./tailwind.css --minify"
   },
   "devDependencies": {
